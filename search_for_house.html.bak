@@ -1,0 +1,46 @@
+<!DOCTYPE>
+   <html>
+   
+      <head>
+	     
+		 <meta charset="uft-8">
+		 <meta http-equiv="refresh" content="30">
+		 <title> </title>
+	  
+	  </head>
+	  
+	  <body>
+	  
+	    <h3>Search for house</h3><br><br>
+	  
+	     <form>
+		 
+		    <label for="house-type">House Type</label>
+			<select id="house-type" size="1">
+			
+			   <option value="cond">Condominium</option>
+			   <option value="real">Realstate</option>
+			   <option value="appa">Apartment</option>
+			   <option value="Other">Other</option>
+			
+			</select> <br><br>
+			
+			<label for="loc">Location</label><br>
+			<input id="loc" type="text" name="location" ><br><br>
+			
+			<label for="room">Room</label>
+			<select id="room" size="1">
+			
+			   <option value="one">1</option>
+			   <option value="two">2</option>
+			   <option value="three">3</option>
+			   <option value="more">More</option>
+			
+			</select>
+			
+		 
+		 </form>
+	  
+	  </body>
+   
+   </html>
